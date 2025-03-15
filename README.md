@@ -1,4 +1,4 @@
-C++ code for the encryption studies with translation into x86 assembly (NASM syntax) for the `main` function and a sample supporting function (`hex_to_bytes`), detailed comments mapping assembly to C++ code with compilation instructions for a Windows `.exe`, and notes for students. For PhD students looking to work into low-level programming and in a satellite communications coding for transparency.
+C++ code for the encryption studies with translation into x86 assembly (NASM syntax) for the `main` function and a sample supporting function (`hex_to_bytes`), detailed comments mapping assembly to C++ code with compilation instructions for a Windows `.exe`, and notes for students. For PhD students looking to work into low-level programming satellite systems coding for transparency.
 
 ---
 ## Original C++ Code
