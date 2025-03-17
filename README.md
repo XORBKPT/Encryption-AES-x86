@@ -1,8 +1,8 @@
-C++ code for the encryption studies with translation into x86 assembly (NASM syntax) for the `main` function and a sample supporting function (`hex_to_bytes`), detailed comments mapping assembly to C++ code with compilation instructions for a Windows `.exe`, and notes for students. For PhD students looking to work into low-level programming satellite systems coding for transparency.
+C++ code for students with translation into x86 assembly (NASM syntax) for the `main` function and a sample supporting function (`hex_to_bytes`), comments mapping assembly to C++ code with compilation instructions for a Windows `.exe`, and notes for students to see what does what between c++ and x86. Useful for when things get crunchy like aerospace coding requirements.
 
 ---
 ## Original C++ Code
-Here’s the standalone C++ aerospace encryption program using AES-CBC with PKCS7 padding. It’s designed for security and reliability, intended to run from a USB stick on Windows RAM.
+Here’s the standalone C++ program using AES-CBC with PKCS7 padding. It’s designed for security and reliability, intended to run from a USB stick on Windows RAM.
 
 ```cpp
 #include <mbedtls/aes.h>
@@ -368,4 +368,4 @@ To compile the assembly code into a standalone Windows executable, follow these 
 
 ## Conclusion
 
-This response provides a comprehensive framework for PhD students to explore translating the previous C++ aerospace encryption program into x86 assembly. The `main` and `hex_to_bytes` functions demonstrate low-level programming with detailed mappings to the C++ code, emphasizing register usage, memory management, and security practices like clearing sensitive data. Students can extend this by implementing the remaining functions using the provided template. Compiling instructions ensure the code runs as a Windows `.exe`, students can check compiling areas from modifications, practically.
+The `main` and `hex_to_bytes` functions demonstrate low-level programming with detailed mappings to the C++ code, emphasizing register usage, memory management, and security practices like clearing sensitive data. Students can extend this by implementing the remaining functions using the provided template. Compiling instructions ensure the code runs as a Windows `.exe`, students can check their compiling sections to their own modifications step by step.
